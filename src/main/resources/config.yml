@@ -1,0 +1,40 @@
+#   ______   ______     ______     __  __     ______     ______      __  __     ______     ______     ______     ______
+#  /\  == \ /\  __ \   /\  ___\   /\ \/ /    /\  ___\   /\__  _\    /\ \_\ \   /\  __ \   /\  == \   /\  ___\   /\  ___\
+#  \ \  _-/ \ \ \/\ \  \ \ \____  \ \  _"-.  \ \  __\   \/_/\ \/    \ \  __ \  \ \ \/\ \  \ \  __<   \ \___  \  \ \  __\
+#  \ \_\    \ \_____\  \ \_____\  \ \_\ \_\  \ \_____\    \ \_\     \ \_\ \_\  \ \_____\  \ \_\ \_\  \/\_____\  \ \_____\
+#  \/_/     \/_____/   \/_____/   \/_/\/_/   \/_____/     \/_/      \/_/\/_/   \/_____/   \/_/ /_/   \/_____/   \/_____/
+
+# The item given on the /horsemount command.
+mount-item:
+  material: "DIAMOND_HORSE_ARMOR"
+  display-name: "&6&l(!) &e&lInventory Horse &6&l(!)"
+  lore:
+    - ""
+    - "&7&oHorse Type: &e&l{horse-type-formatted}"
+    - "&7&oLevel: &e&l{level}"
+    - ""
+    - "&a&lRIGHT-CLICK &7to spawn your horse."
+
+# The messages shown when a player runs the /horsemount command.
+messages:
+  usage: "&c&l(!) Usage: &e&l/horsemount give <horse type> <player>"
+  invalid-horse-type: "&c&l(!) &cInvalid horse type."
+  player-not-online: "&c&l(!) &cCould not find a player &e{player}&c."
+  full-inventory: "&c&l(!) &cYour inventory is full."
+  given-item: "&a&l(!) &eYou have given {player} a {horse-type} &ehouse mount."
+  received-item: "&a&l(!) &eYou have received a {horse-type} house mount."
+
+# The level to speed multiplier for each horse.
+# e.g. the default speed on a horse will be defaulted at whatever the main speed is for that horse, so we'd put one.
+# because 1 * x is x
+levels:
+  1: 1
+  2: 1.2
+  3: 1.4
+  4: 1.6
+  5: 1.8
+  6: 2
+  7: 2.2
+  8: 2.4
+  9: 2.6
+  10: 2.8

@@ -1,0 +1,12 @@
+name: PocketHorse
+version: '${project.version}'
+main: com.steamsworld.pockethorse.PocketHorse
+api-version: 1.18
+authors: [ Steamworks ]
+description: Put a horse in your inventory!
+website: steamsworld.com
+depend: [ NBTAPI ]
+commands:
+  horsemount:
+    description: The main command for this plugin.
+
