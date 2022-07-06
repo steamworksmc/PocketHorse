@@ -50,7 +50,6 @@ public class HorseListeners implements Listener {
         String horseType = nbtItem.getString("horse-type");
 
         Horse.Color color = null;
-        System.out.println("debug here! " + horseType);
         switch (horseType.toUpperCase()) {
             case "BROWN":
                 color = Horse.Color.BROWN;
